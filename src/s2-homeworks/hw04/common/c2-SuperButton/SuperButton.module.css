@@ -1,0 +1,39 @@
+.button {
+}
+
+.disabled {
+    color: yellow;
+}
+
+.secondary {
+    color: #00cc22;
+}
+
+.default {
+}
+
+.red {
+    color: red;
+}
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+}

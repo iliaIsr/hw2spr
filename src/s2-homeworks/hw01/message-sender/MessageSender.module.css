@@ -1,0 +1,35 @@
+.sendForm {
+
+}
+
+.textarea {
+    color: rgba(245, 247, 251, 1);
+    width:976px;
+    height:150px;
+    top:539px;
+    left:70px;
+    border-radius:20px;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+
+}
+
+.button {
+    background: rgba(0, 102, 204, 1);
+    width: 120px;
+    height: 40px;
+    top: 432px;
+    Left: 1090px;
+    border-radius: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat", sans-serif;
+    font-size:16px
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}
