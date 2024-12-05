@@ -39,7 +39,11 @@ function Clock() {
         setShow(false);
     }
     const stringTime = date.toLocaleTimeString('en-US', { hour12: false });
-    const stringDate = date.toLocaleDateString('en-US');
+    const stringDate = date.toLocaleDateString('ru-RU', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric'
+    });
     const stringDay = date.toLocaleString('en-US', { weekday: 'long' });
     const stringMonth = date.toLocaleString('en-US', { month: 'long' });
 
