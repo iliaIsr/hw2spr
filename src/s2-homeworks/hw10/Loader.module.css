@@ -1,3 +1,12 @@
 .loader {
-    /*свг и/или анимация*/
+    border: 8px solid #f3f3f3; /* Цвет фона */
+    border-top: 8px solid #3498db; /* Цвет верхнего сегмента */
+    border-radius: 50%;
+    width: 40px; /* Размер крутилки */
+    height: 40px; /* Размер крутилки */
+    animation: spin 1.5s linear infinite; /* Анимация вращения */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
